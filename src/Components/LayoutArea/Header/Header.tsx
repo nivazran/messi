@@ -13,10 +13,6 @@ function Header(): JSX.Element {
     }, [])
 
     return (
-        // <Collapse in={checked}
-        // {...(checked ? {timeout: 5000} : {})}
-        // // collapsedHeight={50}
-        // >
         <div className="Header" id="header">
             <img src={Logo} alt="" />
 			<Slide direction="down" in={checked}
