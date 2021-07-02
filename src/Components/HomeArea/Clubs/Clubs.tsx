@@ -17,7 +17,7 @@ function Clubs(props: ClubProps): JSX.Element {
     ];
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Clubs Box">
             <img className="Clubs BoxImage" src={clubsImg} alt="" />
             {/* Step 1 : Hard Coded */}

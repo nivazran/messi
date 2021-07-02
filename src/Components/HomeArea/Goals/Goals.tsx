@@ -20,7 +20,7 @@ function Goals(props: GoalsProps): JSX.Element {
 
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Goals Box">
             <img className="Goals BoxImage" src={goalsImg} alt="" />
 			<div className="Goals BoxInformation">
