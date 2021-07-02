@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import IconButton from "@material-ui/core/IconButton";
 import { Slide } from "@material-ui/core";
 //@ts-ignore
-import {Link} from 'react-scroll';
+import {Link as Scroll} from 'react-scroll';
 import Logo from "../../../Assets/Images/Messi-Logo.png"
 
 function Header(): JSX.Element {
@@ -25,11 +25,11 @@ function Header(): JSX.Element {
                     <span className="playerName">Lionel Messi</span><br />
                     Website
                 </h1>
-                <Link to="main" smooth={true}>
+                <Scroll to="main" smooth={true}>
                     <IconButton>
                         <ExpandMoreIcon className="goDown"/>
                     </IconButton>
-                </Link>
+                </Scroll>
             </div>
             </Slide>
         </div>
