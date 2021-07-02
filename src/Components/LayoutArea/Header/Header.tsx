@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import IconButton from "@material-ui/core/IconButton";
 import { Slide } from "@material-ui/core";
+//@ts-ignore
 import {Link} from 'react-scroll';
 import Logo from "../../../Assets/Images/Messi-Logo.png"
 
